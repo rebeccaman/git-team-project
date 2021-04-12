@@ -1,4 +1,8 @@
 public class Main {
 
-    // Add code
+    public static int subtraction(int a, int b) {
+
+        return a-b;
+    }
+
 }
