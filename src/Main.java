@@ -22,6 +22,14 @@ public class Main {
         if (userInput == 1){
             System.out.println("Addition result:" + addition(num1,num2));
         }
+        if (userInput == 2){
+            System.out.println("Addition result:" + subtraction(num1,num2));
+        }
+        if (userInput == 3){
+            System.out.println("Addition result:" + multiplication(num1,num2));
+        } else {
+            System.out.println("Not a valid number.");
+        }
     }
 
     public static int addition(int a, int b){
